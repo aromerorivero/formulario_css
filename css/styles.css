@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formulario {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 2px 2px 4px grey;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.5rem;
+}
+
+
