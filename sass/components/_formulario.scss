@@ -1,11 +1,23 @@
-
 .formulario {
-    padding: 2rem; 
-    margin: 1rem auto; 
-    max-width: 600px; 
-    box-shadow: 2px 2px 4px grey;
+    padding: 3rem;  
+    margin: 2rem auto;  
+    max-width: 800px;  
+    box-shadow: 2px 2px 4px $primary-color;
     border-radius: 10px;
     background-color: #ffffff;
+    
+    input[type="text"],
+    input[type="email"] {
+        margin-bottom: 1rem;
+        padding: 1rem;  // Aumenta el padding de los inputs
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.2rem;  
+    }
+    
+    button {
+        @include button
+    }
 }
-
-
